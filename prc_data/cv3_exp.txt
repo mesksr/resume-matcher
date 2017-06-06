@@ -1,0 +1,20 @@
+❖ Experience in development phase of web applications using ASP.NET 3.5. 
+Work Experience
+Description: 
+Responsibilities: 
+❖ Developed Payloads and Dragon Eye (Socket Programming) using VB 6. 
+Integrated Development Environment Microsoft Visual Studio 2005, 2008 
+Report Visual Studio Crystal Report 
+Description: 
+aSecure is basically launch for security purpose. This project deals with recognizing the face detection and trace out the face of suspected person, if their information is not matched with the customized database. This will help you to maintain the security in your company by filtering the new faces. 
+. 
+Responsibilities: 
+❖ Responsible for Developing Application Front end using C# 
+❖ Developed two modules and Visual Studio Crystal Report. 
+❖ Involved in removing bugs. 
+. 
+Description: 
+Responsibilities: 
+❖ Analyzed the working scenario and Implemented action classes. 
+PROJECT #3: aSecure 
+B.E in Computer Science
