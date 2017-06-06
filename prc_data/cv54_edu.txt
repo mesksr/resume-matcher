@@ -1,0 +1,53 @@
+academic detail : 
+ year 
+ degree / exam 
+ institute 
+ gpa / marks 
+ m.t 
+ ech(cse ) 
+ south point high school ( wbchse ) 
+ secondary 
+ south po 
+ int high school ( wbbse ) 
+ modeling & analysis social networks , network algorithms , wireless networks data mining 
+ system ,   digital image analysis , logic & functional programming 
+ b.tech : 
+ modeling analysis topic diffusion social networks . 
+ supervisor : 
+ dr. amitabha bagchi , iit delhi 
+ dynamic     topic   spread       social   network 
+   analyze   
+ virality 
+ 
+ topic . propose theoretical model simulate social network dynamic continuous stream exogenous topic compe 
+ t enter 
+ 
+ nd diffuse network . model test synthetic social network graph follow 
+ watts & strogatz ( small 
+ world )   graph 
+ model .     apply 
+ project involve extensive coding simulation study . c python cod . develop parallel code 
+ mpi library 
+ simulation faster . study metric topic diffusion like 
+ lifetime , sprea 
+ d topic , cluster formation & merge 
+ 
+ graph modularity 
+ analyze 
+ virality 
+ topic . interesting fact reveal study   virality   topic model achieve 
+ application .     study   show       rank     fraction       farey   sequence           provide     useful   estimation   
+   relative 
+ analysis . 
+ publication 
+ soham   das ,   kishaloy   halder ,   sanjoy   pratihar ,     partha   bhowmick , 
+ graduation scholarship base gate rank . 
+ software allocate seat student examination center 
+ serve teaching assistant [ jan 2012 present ] 
+ prof . vinay ribeiro wireless netowrks ( csl 838 ) . 
+ serve teaching assistant [ july 2011 dec 2011 ] 
+ al organization care , provide primary education street child kolkata . 
+ movie make : 
+ won 2nd prize short 
+ movie making competition movie name " fly " . 
+ 

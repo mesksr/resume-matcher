@@ -1,9 +1,4 @@
-Mahboob Alam
-Kolkata, West Bengal
-Personal Qualities 
-Dynamix Infotech - Kolkata, West Bengal
-August 2016 to Present
-CDAC
-Html5 (2 years), css3 (2 years), Bootstrap (2 years), Angularjs (2 years), Javascript (2 years), JQuery (2 years), Ajax (2 years), Php (2 years), MySqli (2 years), Wordpress (1 year), Ionic (Less than 1 year)
-Additional Information
-• Databases: MySql, MysQli, SQL.
+mahboob alam 
+ personal qualities 
+ additional information 
+ 

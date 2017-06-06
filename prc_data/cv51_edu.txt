@@ -1,3 +1,4 @@
-EDUCATIONAL QUALIFICATIONS:
-Anna University
-Attended many workshops and symposiums in various colleges and won prizes.
+educational qualification : 
+ anna university 
+ attend workshop symposium college win prize . 
+ 

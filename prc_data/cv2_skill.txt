@@ -1,17 +1,10 @@
-To work as an IT professional in an IT industry with a professional work driven environment where I can utilize and apply my knowledge, skills and abilities which will beneficial for mutual growth. 
-Software Developer
-Software - Noida, Uttar Pradesh
-IT Skills 
-• Technologies - 
-• C - Pointer, Structure, Union, Recursion 
-• C++ - Concepts of oops, virtual method, Abstract method 
-• .Net Technology - C#, Asp.net 
-• Operating systems - Windows (XP/7/8) 
-• Tools - MS SQL, SQL server, Microsoft Access 
-➢ Online Attendance: - Attendances of every students are being maintained by every school, college and university. Faculty has to maintain proper record for the attendance. Attendance is the fact that someone is present at an event or go regularly to an institution, or the attendance at an event is the number of people who are present at it. This system will also help in evaluating attendance eligibility criteria of a student. 
-Technology Required: .Net as Front End, SQL server as Back End 
-➢ Medical Store System:- This is desktop based application for medical store. 
-This project manage the medicines and inventory system of medical store system. 
-Technology Required: C# as Front End, SQL Server as Back End 
-➢ Online Voting: - The main objective of " Online Polling System" is to cast vote online when they are not present in home town during election time. It is very useful to increase the voting percentage across country. 
-Technology Required: .Net as Front End, Sql server as Back End
+work professional industry professional work drive environment utilize apply knowledge , skill ability beneficial mutual growth . 
+ software developer 
+ software - noida , uttar pradesh 
+ fresh 
+ skill 
+ technology require : .net end , sql server end 
+ technology require : c # end , sql server end 
+ team size : 2 
+ technology require : .net end , sql server end 
+ 

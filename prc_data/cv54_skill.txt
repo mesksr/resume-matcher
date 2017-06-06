@@ -1,0 +1,50 @@
+indian institute technology delhi . 
+ homepage : 
+ http://www.cse . 
+ iitd.ernet.in/~mcs103480/ 
+ email : 
+ 88soham@gmail.com 
+ mcs103480@cse.iitd.ac.in 
+ mob . : ( + 91 ) 07827857566 
+ indian institute technology delhi 
+ 8.24/10(till 3 
+ rd 
+ sem ) 
+ b.tech(cse ) 
+ institute engineering & management , west bengal university technology 
+ high secondary 
+ information   retrieval ,   database   implementation ,   special   topic     algorithms   ( cryptograp 
+ hy ) ,   wireless   networks ,   fault   tolerant 
+ data structures , design & analysis algorithms , formal languages & automata theory , computer networks , database management 
+ system , artificial 
+ application digital image processing 
+ supervisor : 
+ dr. partha bhowmik , iit kharagpur 
+         digital   image   processing 
+ value . design novel algorithm 
+ efficiently find 
+ fraction farey sequence 
+ f 
+ n 
+ close give fraction 
+ p / q 
+ . avoid 
+ float   point   operation             elegant     faster .     find   excellent   application     polygonal   approxim 
+ ation     shape 
+ property     farey   sequence       application     digital   image 
+ processing 
+ property     farey   sequence       application   
+ digital image processing 
+ , fourth international conference informati 
+ processing , bangalore , 2010 . 
+ technical skills : 
+ program language 
+ : c , c++ , python ( networkx library ) , parallel programming ( mpi library ) , graph visualizations ( graphviz librar 
+ y ) . 
+ software : 
+ matlab , gnuplot , latex , socnetv , pajek . 
+ e processing technique 
+ face recognition pca 
+ android application 
+ solution oracle databases . 
+ 

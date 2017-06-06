@@ -1,0 +1,97 @@
+indian institute technology , kanpur , 
+ e - mail :   arajput.cse@gmail.com 
+ , india . 
+ alternate :   arajput@cse.iitk.ac.in 
+ parallel systems & programming languages 
+ compiler , high performance computing 
+ verbal :   660/800 quantitative :   800/800 analytical :   4.0/6.0 
+ toefl score : 
+ 105 [ reading :   27 , listen :   25 , speak :   24 , write :   29 ] 
+ workshops / conferences 
+ implementation . 
+ iwds : second international workshop distributed systems 
+ 27 - 29 november 2010 
+ flow - base programming language multi - core architecture 
+ january 2010 - till date 
+ gramm language current future generation - core machine . 
+   programmer   express   problem   inherently       acyclic   sequence     computation   result     
+ cilk style programming , flow base execution 
+ promise 
+ base approach undertake .   programmer 
+ .      multi - phase   processing   approach   couple   non - deterministic   construction 
+ deterministic outcome .   language look promising graph - base non - deterministic problem . 
+ cs738 :   advanced compiler optimization 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   sanjeev k. aggarwal 
+ lapack implement level-3 basic linear algebra operation square block pack ( sbp ) 
+ ware cuda ( gpgpu ) & intel tbb ( 2,4,16,24 core ) .   result parallelize block algorithm 
+ new digital watermarking scheme 3d triangular mesh model 
+ december 2009 - 2010 
+ cs698e : digital watermarking & steganography 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   phalguni gupta 
+ triangular mesh model .   final scheme design integrate reversible watermarking scheme 2d 
+ capacity slight / acceptable visual distortion term psnr . approach replicate watermarking 
+ cs676 :   computer vision & image processing 
+ dept .   cse , iitk 
+ advisor : 
+ dr.   simant dubey 
+ compiler design subset c++ language 
+ december 2008 - 2009 
+ cs335 :   compiler design 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   sanjeev k. aggarwal 
+ aim project develop compiler subset c++ language .   final working 
+ compiler tackle primitive data type , dynamic scoping hierarchical symbol table structure , pointer 
+ arithmetic , type coercion , loop , conditional , function recursion . 
+ file compressor & archiver 
+ december 2008 - 2009 
+ cs653 :   functional programming 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   piyush p. kurur 
+ build functional language haskell .   project stand successfully complete good compression ratio 
+ performance . 
+ comparison tcp performance wlan 
+ december 2009 - 2010 
+ cs634 :   mobile computing 
+ dept .   cse , iitk 
+ advisor : 
+ dr.   r.k.ghosh 
+ cs425 :   computer networks 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   harish karnick 
+ frud : framework distributed computing unstructured data 
+ december 2009 - 2010 
+ cs455 :   software engineering 
+ dept .   cse , iitk 
+ advisor : 
+ prof .   t.v. prabhakar 
+ software transactional memory ( stm ) 
+ july 2010 - november 2010 
+ cs738 :   advanced compiler optimizations 
+ give lecture software transactional memory .   lecture cover basic ,   optimistic vs.   pessimistic 
+ execution mode , write - buffer vs - place buffering , strong vs.   weak isolation , . 
+ high dynamic range imaging ( hdri ) 
+ july 2009 - november 2009 
+ cs76 :   computer vision & image processiong 
+ give lecture explain hdri approach cover entire process capture multiple ldr image , 
+ create hdr image set ldr image , store hdr format render 
+ ldr display tone mapping . 
+ provide rich , - depth broad learning experience c programming language . 
+ award scholarship national talent search examination(2003 ) . 
+ skills 
+ programminglanguage 
+ : c , c++ , java , haskell , oz , ml , python , vhdl 
+ platform 
+ :   windows , linux 
+ application 
+ :   matlab , ms office , weka 
+ tools 
+ api 
+ :   intel tbb , cuda programming , openmp , intel developer & debugger tool 
+ 

@@ -1,0 +1,41 @@
+resume 
+ soham das 
+ currently pursue m.tech(2010 
+ 2012 ) computer science & engineering , 
+ department computer science & engineering , 
+ course : 
+ m.tech : 
+ intelligence , operate systems , computer organization , computer architecture , compilers 
+ m.tech thesis ( 2011 
+ title : 
+ description :   
+   work     pr 
+ imarily   concerned     model 
+ mean   field   theory 
+ concept     analyze     dynamic       process .     theoretical   mo 
+ deling ,   
+ consequence network dynamic , 
+ lattice cluster m 
+ erg 
+ b.tech project ( 2009 
+ title : 
+ augmenting & compress 
+ farey table 
+       final   year   b.tech   project       problem     augment   &   compressi 
+ ng   
+ farey   table 
+ best   paper   award 
+   icip   2010 :   won     good   paper   award       paper 
+ projects : 
+ human activity detection sunspots 
+ sql injection attack preventive measure 
+ online multiplayer ping 
+ pong game c opengl 
+ painterly rendering real image imag 
+ industrial training : 
+ title : 
+ work       oracle   web   support   team     tcs ,   kolkata .   developed     repository     client   information ,     query     
+ position responsibility hold : 
+ social work : 
+ work soci 
+ 

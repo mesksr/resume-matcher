@@ -1,24 +1,7 @@
-Ranjeet Kumar
-Shakarpur, Delhi
-2011 to Present
-Team Size: 5 
-❖ Impose Validations as per the Requirements. 
-❖ Integrated Predefine customized Phishing page, Exploits and Payloads template packs for campaigning. 
-April 2010 to Present
-New Delhi 
-RDBMS MS Access, SQL Server 
-April 2010 to Present
-Team Size: 4 
-App Server: ASP.Net 
-Achievements, Extra Curricular Activities: 
-Team Member
-September 2010 to May 2011
-Team Size: 4 
-❖ Impose Validations as per the Requirements. 
-2010
-C,C++,C#,ASP.Net,VB.Net,SQL Server 2005,VB 6,VBScript,Web Services, WCF, Socket Programming,HTML,XML,Javascript.
-Additional Information
-Father’s Name : Mr. Rajkumar Prasad 
-Date of Birth : 21th Dec 1986 
-Marital Status : Single 
-Nationality : Indian
+ranjeet kumar 
+ rdbms ms access , sql server 
+ achievement , extra curricular activity : 
+ additional information 
+ date birth : 21th dec 1986 
+ marital status : single 
+ 

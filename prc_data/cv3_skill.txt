@@ -1,40 +1,39 @@
-Team Member - Appin Software Group
-❖ 2.2 years of IT experience in various technologies like C#.Net, VB.Net, VB 6, VBScript, SQL Server. 
-❖ Expertise in implementing .Net technologies with ADO.Net to develop Enterprise applications. 
-❖ Expertise in implementing .Net Design Patterns. 
-❖ Good Knowledge in Web Services and WCF Applications. 
-❖ Good Knowledge in Socket Programming using .Net as well as in VB 6.
-Software Developer
-Appin Software Group - New Delhi, Delhi
-Technologies: C#, ADO.Net, SQL Server 2005, Visual Studio 2008, VB 6 
-App Server: Windows Application 
-Matrix Framework is a new tool for Penetration Testing and the ultimate resource to demonstrate the security of your network. With the help of this software, you can easily get the basic information of target by sending mail either in the form of link or attachment by using either Social engineering webpage, Exploits or Payloads. With RAT, you can take the full control of the client machine and you can perform any operation on their machine, you can also use cmd command in CMD shell to perform operation & many more such functionality. 
-❖ Implemented Action Classes. 
-❖ Implemented Form Design, their coding and tested the entire application. 
-❖ Implemented FTP Server Configuration and their Monitoring. 
-❖ Implemented Database using SQL Server as backend and ADO.Net for their connectivity. 
-❖ Fix all the bugs come during running whole Application.
-Software Developer
-Appin Software Group - New Delhi, Delhi
-Technical Skill 
-Operating System Windows-XP, Windows 7 
-Programming Languages C, C++, C#, ASP.Net, VB.Net, VB 6.0, VBScript 
-Framework .Net Framework 2.0, 3.5 
-Tools & Methodologies Software Engineering 
-Markup Language HTML, XML. 
-PROJECT #1: Matrix Framework 
-Platform: Windows XP/ 7
-Software Developer
-Appin Software Group - New Delhi, Delhi
-Technologies: C#, Visual Studio 2008, SQL Server 2005 
-❖ Involved in Designing, Coding and Testing of two modules. 
-❖ Implemented Database using SQL Server as backend and ADO.Net for their Interaction. 
-Appin Software Group
-Technologies: C#, ADO.Net, Crystal Report, SQL Server 2005, VS 2005. 
-App Server: Windows Application 
-Call Data Record Analyzer is used to analysis and tracking criminal on call data record base by most of the intelligence organization of India. This software maintains call data record and make different type of intelligence search to find a important information. This software generate various type of report based on different searches (frequency, time wise, duration wise, call type wise, subscriber, cell id, IMEI based, international call etc) 
-❖ Implemented Form Design, their coding and tested three Modules. 
-❖ Implemented Database using SQL Server as backend and ADO.Net for their connectivity.  
-Platform: Windows XP/ 7
-Skills
-Language Known : English, Hindi 
+team member - appin software group 
+ shakarpur , delhi 
+ software developer 
+ appin software group - new delhi , delhi 
+ 2011 present 
+ team size : 5 
+ technology : c # , ado.net , sql server 2005 , visual studio 2008 , vb 6 
+ app server : windows application 
+ matrix framework new tool penetration testing ultimate resource demonstrate security network . help software , easily basic information target send mail form link attachment social engineer webpage , exploits payload . rat , control client machine perform operation machine , use cmd command cmd shell perform operation & functionality . 
+ software developer 
+ appin software group - new delhi , delhi 
+ april 2010 present 
+ new delhi 
+ technical skill 
+ operate system windows - xp , windows 7 
+ program language c , c++ , c # , asp.net , vb.net , vb 6.0 , vbscript 
+ framework .net framework 2.0 , 3.5 
+ tools & methodologies software engineering 
+ markup language html , xml . 
+ project # 1 : matrix framework 
+ platform : windows xp/ 7 
+ software developer 
+ appin software group - new delhi , delhi 
+ april 2010 present 
+ team size : 4 
+ technology : c # , visual studio 2008 , sql server 2005 
+ app server : asp.net 
+ appin software group 
+ september 2010 2011 
+ team size : 4 
+ technology : c # , ado.net , crystal report , sql server 2005 , vs 2005 . 
+ app server : windows application 
+ data record analyzer analysis track criminal datum record base intelligence organization india . software maintain datum record different type intelligence search find important information . software generate type report base different search ( frequency , time wise , duration wise , type wise , subscriber , cell d , imei base , international ) 
+ platform : windows xp/ 7 
+ skill 
+ c , c++,c#,asp.net , vb.net , sql server 2005,vb 6,vbscript , web services , wcf , socket programming , html , xml , javascript . 
+ language know : english , hindi 
+ nationality : indian 
+ 

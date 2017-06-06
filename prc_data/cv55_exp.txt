@@ -1,0 +1,75 @@
+computer science & engineering 
+ m.tech .   cpi 9.2/10.0 
+ isc ( class xii ) 
+ cms , lucknow 
+ icse ( class x ) 
+ cms , lucknow 
+ standrdized test scores 
+ description 
+ iiit bangalore 
+ academia , industry & student discuss current research future trend concurrent system design 
+ description 
+ iit kanpur 
+ abstract thesis work accept presentation workshop .   present current 
+ result & research work researcher student work area . 
+ research experience 
+ masters thesis ( work progress ) 
+ dept .   cse , iitk 
+ advisor : 
+ dr.   r.k.ghosh & prof .   harish karnick 
+ description : 
+ thesis project aim design & development new share - memory parallel pro- 
+ & propose construct achieve construction rapidly & elegantly . combination 
+ work persistent stateful entity 2d space , structure dynamic register result 
+     outside   world   
+ signal 
+ description : 
+ project aim exploit innate parallelism available algorithm cholesky fac- 
+ description : 
+   project     target     come         reversible   watermark   embed   scheme     3d- 
+ description : 
+ project investigate accuracy scale invariant feature transform(sift ) feature 
+ similarity measure object tracking previously unknown object .   propose strategy outperform 
+ course project 
+ description : 
+ description : 
+ project implement adaptive huffman encoding(vitter algorithm ) , burrrows - wheeler trans- 
+ form lz encoding scheme pipelined way achieve high compression ratio file .   project 
+ description : 
+ rate simulate wlan protocol .   snoop protocol find good performing 
+ . 
+ description : 
+ project aim implement bit - torrent like peer - - peer client lan . project 
+ implement         specification   mention       original   p2p   protocol     bram   cohem .      project 
+ description : 
+ project development , documentation maintenance library distribute 
+ computing large quantity datum , akin hadoop map - reduce .   java choose develop library . 
+ cs315 :   principle database management 
+ dept .   cse , iitk 
+ advisor : 
+ dr.   arnab bhattacharya . 
+ description : 
+ project provide user account - base access online storage space .   web - base 
+ user .      user     upload / download     search     desire   file .      relational   database         store   
+ internship / work experience 
+ microsoft india development center 
+ 2009 - july 2009 
+ intern position : 
+ :   program manager + software development engineer 
+ mentor : 
+ mr.   gautam bajekal 
+ description : 
+ :   work office communicator team msidc , work program manager .   
+ develop , demonstrate discuss team senior program manager .   internship provide 
+ exposure healthy team - base work environment insight industrial work - culture . 
+ talks / lectures 
+ fundamental computing ( esc101 ) 
+ july 2010 - november 2010 
+ description 
+ :   
+ tutor 
+   batch     40   freshman       esc101   course .      tutor   design   problem       lab   test 
+ , cover topic spread duration semester , assist lecture material 
+ secure india rank 373 joint entrance examination 2006 conduct iit percentile close 
+ 99.9 
+ 
