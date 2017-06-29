@@ -2,9 +2,25 @@
 
 Ranking CVs against JDs.
 
+# About Generated Word@Vec Word Embeddings
+
+- Each word is represented as a **300-sized numpy array.** :saxophone:
+
+- Trained against ***stackoverflow***:star: data dump (in xml).
+
+- Collected ***1237328 word types*** from a ***corpus of 565919447 raw words*** and ***32701720 sentences.*** :heavy_exclamation_mark:
+
+- Running time ~3hrs. :hourglass_flowing_sand:
+
+- Most of the text preprocessing was already completed earlier.
+
+- For more details see **model-stuff** below.
+
+# Directory details
+
 ## model-stuff/
 
-- **Successfully trained the word2vec model on stackoverflow data !! 🌞** 
+- **Successfully trained the word2vec model on stackoverflow data !! 🌞**
 
 - The code is present as ***Word2Vec Model Training.ipynb*** notebook. The model is saved in model/ subdirectory (locally).
 
