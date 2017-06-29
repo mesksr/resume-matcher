@@ -4,9 +4,9 @@ Ranking CVs against JDs.
 
 ## model-stuff/
 
-- The target is to get simple English sentences out of the gigantic stackexchange dataset(~40GB), which will be fed into the model training for word2vec.
+- **Successfully trained the word2vec model on stackoverflow data !! 🌞** 
 
-- A sample of training was added as ***sample-model-training.ipynb***
+- The code is present as ***Word2Vec Model Training.ipynb*** notebook. The model is saved in model/ subdirectory (locally).
 
 - **sample_bitcoin.stackexchange_paras.txt** is the paras.txt(paragraph in html tags) file for bitcoin.stackexchange.com subdirecory of the dataset. It was generated from bitcoin.stackexchange.com/Posts.xml using the code in ***paragraph_extraction_from_Posts.xml.ipynb*** notebook.
 
@@ -16,6 +16,6 @@ Ranking CVs against JDs.
 
 - ***raw_data/*** : contains collected CVs
 
-- ***collectCV.py*** : While this program is running, every new text copied to clipboard is saved as a CV in **raw_data/** directory in text format. 
+- ***collectCV.py*** : While this program is running, every new text copied to clipboard is saved as a CV in **raw_data/** directory in text format.
 
 - ***jd.csv*** : This program is to filter the Job Descriptions, only for IT positions from the Kaggle dataset here: https://www.kaggle.com/c/job-salary-prediction/data.
