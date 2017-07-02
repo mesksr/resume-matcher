@@ -4,12 +4,12 @@ import logging, time
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-PATH = os.path.join(os.getcwd(),'raw_data')
+PATH = os.path.join(os.getcwd(),'CVs')
 r = Tk()
 r.withdraw()
 
 result = ""
-cvno = 96
+cvno = 301
 res = ""
 
 try:
