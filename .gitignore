@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 model-stuff/stackexchange
 model-stuff/.ipynb_checkpoints
-section-stuff/.ipynb_checkpoints
 model-stuff/model
-model-stuff/stackexchange.*
+model/
+section-stuff/.ipynb_checkpoints
