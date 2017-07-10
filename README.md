@@ -1,4 +1,3 @@
-# resume-matcher
 
 Ranking CVs against JDs.
 
@@ -6,9 +5,14 @@ Ranking CVs against JDs.
 
 ```
 .
-|  
+|   
 +-- .gitignore
 +-- README.md
++-- model/  --gitignored
++-- data/                 #Both made accessible to all parent folders easily.
+|   +-- collectCV.py
+|   +-- jd.csv
+|   +-- raw_data/
 +-- model-stuff/
 |   +-- Word2Vec Model Training.ipynb
 |   +-- paragraph_extraction_from_Posts.xml.ipynb
@@ -16,15 +20,15 @@ Ranking CVs against JDs.
 |   +-- sample_bitcoin.stackexchange_paras.txt
 |   +-- sample_bitcoin.stackexchange_sentences.txt
 |   +-- stackexchange/ --gitignored
-|   +-- model/ --gitignored
 +-- section-stuff/
 |   +-- get_sections.ipynb
 |   +-- prc_data.csv
-|   +-- data/
-|   |   +-- collectCV.py
-|   |   +-- jd.csv
-|   |   +-- raw_data/
++-- score-stuff/
+|   +-- WithWord2Vec.ipynb
+|   +-- WithSpacyModel.ipynb
 ```
+gitignored :no_entry: too big for GitHub.
+
 See below for detailed explaination. :point_down:
 
 
@@ -34,6 +38,7 @@ See below for detailed explaination. :point_down:
 
 - Trained against ***stackoverflow***:star: data dump (in xml).
 
+- Collected ***1237328 word types*** from a ***corpus of 565919447 raw words*** and ***32701720 sentences.*** :heavy_exclamation_mark:
 - Collected ```1237328``` ***word types*** from a ***corpus of*** ``` 565919447 ``` raw words and ```32701720``` ***sentences.*** :heavy_exclamation_mark:
 
 - Running time ~3hrs. :hourglass_flowing_sand:
@@ -53,7 +58,9 @@ See below for detailed explaination. :point_down:
 
 - ```sample_bitcoin.stackexchange_paras.txt``` is the ***paras.txt*** (paragraph in html tags) file for ```bitcoin.stackexchange.com``` subdirectory of the dataset. It was generated from the ```Posts.xml``` using the code in [paragraph_extraction_from_Posts.xml.ipynb](https://github.com/mesksr/resume-matcher/blob/master/model-stuff/paragraph_extraction_from_Posts.xml.ipynb) notebook.
 
+
 - ```sample_bitcoin.stackexchange_sentences.txt``` is the **sentences.txt** (pure sentences) file for ```bitcoin.stackexchange.com``` subdirectory of the dataset. It was generated from the corresponding paras.txt, using the code in [sentence_extraction_from_paras.txt.ipynb](https://github.com/mesksr/resume-matcher/blob/master/model-stuff/sentence_extraction_from_paras.txt.ipynb). The process took around ~12.5 hours to complete.
+
 
 - [stackexchange/](https://archive.org/details/stackexchange) The dataset is hosted on archive.org. The dataset has dump for all communities under StackExchange in ```xml``` format. Each subdirectory(community) had the following directory substructure:
 
@@ -83,15 +90,20 @@ stackexchange/
 +-- ...so on
 ```
 
-```paras.txt``` and ```sentences.txt``` are generated for each of the community subdirectories' ```Posts.xml``` file only.
-
 ## [section-stuff/](https://github.com/mesksr/resume-matcher/tree/master/section-stuff)
 
+- **sample_bitcoin.stackexchange_sentences.txt** is the sentences.txt (pure sentences) file for bitcoin.stackexchange.com subdirectory of the dataset. It was generated from the corresponding paras.txt generated earlier using the code in ***sentence_extraction_from_paras.txt.ipynb***. The process took around 12.5 hours to complete.
 
-### [data/](https://github.com/mesksr/resume-matcher/tree/master/section-stuff/data)
+
+## [data/](https://github.com/mesksr/resume-matcher/tree/master/data)
 
 - ***raw_data/*** : contains collected CVs
 
+- ***collectCV.py*** : While this program is running, every new text copied to clipboard is saved as a CV in **raw_data/** directory in text format.
 - ***collectCV.py*** : ***While this program is running, every new text copied to clipboard is saved as a CV*** in ```raw_data``` subdirectory in text format.
 
 - ***jd.csv*** : This program is to filter the Job Descriptions, only for IT positions from the Kaggle dataset here: https://www.kaggle.com/c/job-salary-prediction/data.
+
+## [score-stuff/](https://github.com/mesksr/resume-matcher/tree/master/score-stuff)
+
+- 2 initial files added.
