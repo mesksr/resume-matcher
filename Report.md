@@ -541,7 +541,10 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 - There are pre-trained models available both in ```gensim``` and ```spaCy``` packages in Python. These models are trained over Google News Data. This implies that they are not suitable for the technically aware context distinction required for this project. For e.g. HTML and Ruby may have higher similarity value in these models than the model we trained.
 
 - Therefore, we required a dataset which was both technically aware and also has sufficient amount of unique words present for the non-technical functioning of the model.
- ```  The dataset used to train Word2Vec model becomes more crucial considering the fact that Word2Vec models can be retrained over and over, however, new Vocabulary cannot be added to the model.
+ ```  
+ The dataset used to train Word2Vec model becomes more crucial considering the
+ fact that Word2Vec models can be retrained over and over, however,
+ new Vocabulary cannot be added to the model.
  ```
 
 - Therefore, we decide to use the ```stackexchange/``` network data.
