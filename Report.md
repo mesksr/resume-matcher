@@ -555,4 +555,20 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 
 - For training the Word2Vec model, we required a sequence of sentences to be streamed from the disk. Each sentence is represented as a list i.e. each element of this list is the word of the sentence.
 
-- 
+- So, the ```paras.txt``` files were used to extract sentences using BeautifulSoup(a Python Library), and saved into ```sentences.txt``` (for each site), such that the final result is free of formatting and mathematics, code etc.
+
+- These sentences were streamed into the Word2Vec train method for training the model.
+
+## Generated Word2Vec Word Embeddings
+
+- Each word is represented as a ```300-sized``` numpy array (vector).
+
+- Collected **1237328 unique words** from a **corpus of 565919447 raw words** and **32701720 sentences.**
+
+-  Running time for the training was around 3hrs.
+
+## Extracting sections
+
+## Assigning scores
+
+## Suggestions for Subsquent Work
