@@ -39,8 +39,7 @@ See below for detailed explaination. :point_down:
 - Trained against ***stackoverflow***:star: data dump (in xml).
 
 - Collected ***1237328 word types*** from a ***corpus of 565919447 raw words*** and ***32701720 sentences.*** :heavy_exclamation_mark:
-- Collected ```1237328``` ***word types*** from a ***corpus of*** ``` 565919447 ``` raw words and ```32701720``` ***sentences.*** :heavy_exclamation_mark:
-
+s
 - Running time ~3hrs. :hourglass_flowing_sand:
 
 - Most of the text preprocessing was already completed earlier.
