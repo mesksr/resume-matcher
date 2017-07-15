@@ -40,7 +40,7 @@ The project was challenging not only because filtering CV is a subjective matter
 
 Mainly we required three datasets:
 
-1. StackExchange Posts
+#### **StackExchange Network Posts**
 
 - This dataset was required to trains the word2vec model. Fortunately, StackExchange network dumps it's data in xml format under Creative Commons License. One can find a download link for the dataset(44 GB) [on Internet Archive.](https://archive.org/details/stackexchange)
 
@@ -391,7 +391,9 @@ worldbuilding.stackexchange.com.7z                13-Jun-2017 21:36     104.4M
 writers.stackexchange.com.7z                      13-Jun-2017 21:36     20.4M
 ```
 
-- Each site archive includes Posts, Users, Votes, Comments, PostHistory and PostLinks (all in .xml files). The README.md file of the dataset is given below:
+- All the zip files were extracted using a ```bash script```.
+- This colection of sites is referenced as ```stackechange/``` folder from hereafter.
+- Each site archive includes Posts, Users, Votes, Comments, PostHistory and PostLinks (all in .xml files). The ```README.md``` file of the dataset is given below:
 
 ### README.md
 ---
@@ -515,10 +517,42 @@ writers.stackexchange.com.7z                      13-Jun-2017 21:36     20.4M
     - BountyAmount (only for VoteTypeId 9)
 ---
 
-- All the zip files were extracted using a ```bash script```.
-- This colection of sites is referenced as ```stackechange/``` folder from hereafter. 
 
-2. Job Descriptions
+#### **Job Descriptions**
 
 - A [Kaggle dataset](https://www.kaggle.com/c/job-salary-prediction/data) containing Job Descriptions for several job openings was used.
 - We used NLP to filter out the Job Descriptions related to IT industry.
+- Finally, 5000+ JDs including JDs for positions like 'Web devloper', 'C++ software developer', 'Software developer', 'Enbedded Software Engineer' were filtered out and saved as ***jd.csv***.
+
+#### **Resumes**
+
+- No open source/dataset for Resumes was found.
+- We needed resumes in text format. Since, extracting proper text from PDF files is a complex problem on it'w own.
+- [Indeed.com](http://www.indeed.com) was the only site which displayed the resumes openly.
+- So, a Python Script(collectCV.py) was used to collect around 300 resumes of applicants for positions like 'Software Developer' , 'Data Scientist', 'Web Developer' etc.
+
+---
+
+# Training Word2Vec Model
+
+Word2Vec models are shallow, two-layer neural networks that are trained to reconstruct linguistic contexts of words. Word2vec takes as its input a large corpus of text and produces a vector space, typically of several hundred dimensions, with each unique word in the corpus being assigned a corresponding vector in the space. Word vectors are positioned in the vector space such that words that share common contexts in the corpus are located in close proximity to one another in the space
+
+## Requirement of training our own models
+- There are pre-trained models available both in ```gensim``` and ```spaCy``` packages in Python. These models are trained over Google News Data. This implies that they are not suitable for the technically aware context distinction required for this project. For e.g. HTML and Ruby may have higher similarity value in these models than the model we trained.
+
+- Therefore, we required a dataset which was both technically aware and also has sufficient amount of unique words present for the non-technical functioning of the model.
+ ```  The dataset used to train Word2Vec model becomes more crucial considering the fact that Word2Vec models can be retrained over and over, however, new Vocabulary cannot be added to the model.
+ ```
+
+- Therefore, we decide to use the ```stackexchange/``` network data.
+- We used the ```gensim``` implementation (in Python) of Word2Vec to train our model.
+
+## Cleaning and Extracting data
+
+- From the ```stackexchange/``` dataset the ```Posts.xml``` for each site was used to extract each Post irrespective of whether it's a Question or an Answer. These Posts were extracted as HTML para tags and saved as ```paras.txt``` in the corresponding subfolder of the site.
+
+- At this stage, each subdirectory of ```stackexchange/``` which corresponds to the a site under StackExchange network, has a new file called ```paras.txt```.
+
+- For training the Word2Vec model, we required a sequence of sentences to be streamed from the disk. Each sentence is represented as a list i.e. each element of this list is the word of the sentence.
+
+- 
