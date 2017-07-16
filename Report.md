@@ -588,7 +588,7 @@ This section describes our suggestions for the next iteration of the development
 - Word2Vec has two popular implementation:
   - The C Google implementation
   - The Python Gensim implementation
-  The vectors can be retrained in C implementation. The vectors in Python implementation can be retrained  but the Vocabulary can't be added to the model.
+  The vectors can not be retrained in C implementation. The vectors in Python implementation can be retrained  but the Vocabulary can't be added to the model.
 
 - So, the gensim implementation of Doc2Vec should be used instead. It is similar but more flexible. The model can be retrained and Vocabulary can be added to the model as well. Further, vectors for Phrases can be generated more easily since the averaging algorithm is in-built.
 
