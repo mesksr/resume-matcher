@@ -11,7 +11,6 @@
 7. Suggestions for Subsquent Work
 8. Conclusion
 9. Resources
-10. GitHub
 ```
 ---
 
@@ -570,10 +569,11 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 
 -  Running time for the training was around 3hrs.
 
+---
 ## Extracting sections
-
+---
 ## Assigning scores
-
+---
 ## Suggestions for Subsquent Work
 
 This section describes our suggestions for the next iteration of the development:
@@ -595,3 +595,11 @@ This section describes our suggestions for the next iteration of the development
 - Better Tokenisation while training model. For eg. Identification of common phrases and generating a single token for it instead of individual words. Like 'New York' is better tokenised as 'new_york' than 'new' and 'york'.  This can be achieved  by using gensim implementation of Phrases or spaCy.
 
 ### Scoring Algorithm
+
+---
+
+## Conclusion
+
+---
+## Resources
+---
