@@ -575,3 +575,23 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 ## Assigning scores
 
 ## Suggestions for Subsquent Work
+
+This section describes our suggestions for the next iteration of the development:
+
+### Identifying Sections in Resumes
+- After the first generation, we have enough resumes to create a training dataset. That is, from the resumes, we can extract senetnces and assign them labels according to the section they are in. For eg. 'MS from Cambridge' will be labelled as 'Education'.
+- This is possible because most of the resumes have similar structure since they share the source.
+- This training set can be used to train a sentence classification algorithm (SVM is recommended).
+- This algorithm can be used to classify sentences of resumes.
+
+### Word Emeddings
+- Word2Vec has two popular implementation:
+  - The C Google implementation
+  - The Python Gensim implementation
+  The vectors can be retrained in C implementation. The vectors in Python implementation can be retrained  but the Vocabulary can't be added to the model.
+
+- So, the gensim implementation of Doc2Vec should be used instead. It is similar but more flexible. The model can be retrained and Vocabulary can be added to the model as well. Further, vectors for Phrases can be generated more easily since the averaging algorithm is in-built.
+
+- Better Tokenisation while training model. For eg. Identification of common phrases and generating a single token for it instead of individual words. Like 'New York' is better tokenised as 'new_york' than 'new' and 'york'.  This can be achieved  by using gensim implementation of Phrases or spaCy.
+
+### Scoring Algorithm
