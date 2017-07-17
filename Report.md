@@ -620,8 +620,6 @@ This section describes our suggestions for the next iteration of the development
 
 - The division of section can be improved by using the currently sorted sections, that is, we can use them for classifying the lines.
 
-- Instead of considering each word individually, we can take phrases together. Like 'software developer' should be treated as a single entity instead of two.
-
 - We give a higher value to words 'python', 'java', etc. over words like 'knowledge', 'experience', etc. in keywords of job description. This can be done by extracting the tags from the stackoverflow data.
 
 
