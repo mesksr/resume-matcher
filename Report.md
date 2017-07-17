@@ -2,6 +2,10 @@
 # Summer Internship Report - 2017
 
 ```
+                        Resume Filtering Using Machine Learning
+```
+
+```
 1. Project Introduction
 2. Overview
 3. Data Collection
@@ -12,6 +16,15 @@
 8. Conclusion
 9. Resources
 ```
+
+
+#### Submitted By:
+-  Mradul Dubey
+- Shubham Kumar Singh Rajput
+- Rahul Singh
+
+
+
 ---
 
 ## Project Introduction
