@@ -571,8 +571,30 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 
 ---
 ## Extracting sections
+
+- We have some collection of words that are usually the heading in the resumes. For example 'education', 'academic', 'school', 'study', etc will mark the start of the education section
+
+- We itterate over all all lines of all resumes, one by one. 
+
+- For each line, first we remove all the blank lines or the lines containing just symbols. Some resumes have a line denoted to just asterics or dashes.
+
+- Next, we categorize each line into one of the four sections. This is done by calculating its similarity to the existing words. If the similarity is higher than the threshold, we update the section and mark that point, on the other hand, if the similarity if below the threshold, we continue with the previous section. 
+
+- This enables us to separate the sections with good enough accuracy.
+
+- Finally, we write each section of a resume in a .csv file after removing the stop words and doing lemmatization.
+
 ---
 ## Assigning scores
+
+- For a given Job Description, we remove all the stop words and do lemmatization, to get a selected few keywords.
+
+- For each keyword found, we find '5' similar words and their corresponding similarity.
+
+- Now, we find tf-idf for each word, that we got in step 2. 
+
+- Score of the CV is the sum of tf-idf * similarity for all words we got in step 2.
+
 ---
 ## Suggestions for Subsquent Work
 
