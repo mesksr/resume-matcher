@@ -8,7 +8,7 @@
 4. Training Word2Vec model
 5. Extracting Sections
 6. Assigning Scores
-7. Suggestions for Subsquent Work
+7. Suggestions for Subsequent Work
 8. Conclusion
 9. Resources
 ```
@@ -20,7 +20,7 @@
 The project aims to automate the filtering process of the influx of CVs/resumes for
 an IT company.
 ```
-This is, in it's current form, achieved by assigning a score to each CV by intelligently commparing them against the corresponding Job Description.  This reduces the window to a fraction of original size of applicants. Resumes in the final window can be manually checked for further analysis.
+This is, in its current form, achieved by assigning a score to each CV by intelligently comparing them against the corresponding Job Description.  This reduces the window to a fraction of an original size of applicants. Resumes in the final window can be manually checked for further analysis.
 The project uses recent advances in Data Science and Machine Learning to automate the procedure.
 The project was challenging not only because filtering CV is a subjective matter but because of the variety of resume writing and the unavailability of processed data.
 
@@ -29,7 +29,7 @@ The project was challenging not only because filtering CV is a subjective matter
 ## Overview
 
 - Not unlike any other Data Science project, we started off at Data Collection. We mainly required three datasets.
-- Then we trained the Word2Vec Model using the stackoverflow data dump.
+- Then we trained the Word2Vec Model using the StackOverflow data dump.
 - We extracted sections from the CVs like Education, Experience etc.
 - Finally,  the CVs were awarded scores against each Job Descriptions available.
 
@@ -526,7 +526,7 @@ writers.stackexchange.com.7z                      13-Jun-2017 21:36     20.4M
 #### **Resumes**
 
 - No open source/dataset for Resumes was found.
-- We needed resumes in text format. Since, extracting proper text from PDF files is a complex problem on it'w own.
+- We needed resumes in text format. Since extracting proper text from PDF files is a complex problem on it's own.
 - [Indeed.com](http://www.indeed.com) was the only site which displayed the resumes openly.
 - So, a Python Script(collectCV.py) was used to collect around 300 resumes of applicants for positions like 'Software Developer' , 'Data Scientist', 'Web Developer' etc.
 
@@ -541,8 +541,8 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 
 - Therefore, we required a dataset which was both technically aware and also has sufficient amount of unique words present for the non-technical functioning of the model.
  ```  
- The dataset used to train Word2Vec model becomes more crucial considering the
- fact that Word2Vec models can be retrained over and over, however,
+ The dataset used to train Word2Vec model becomes more crucial considering the fact
+ that Word2Vec models can be retrained over and over, however,
  new Vocabulary cannot be added to the model.
  ```
 
@@ -553,7 +553,7 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 
 - From the ```stackexchange/``` dataset the ```Posts.xml``` for each site was used to extract each Post irrespective of whether it's a Question or an Answer. These Posts were extracted as HTML para tags and saved as ```paras.txt``` in the corresponding subfolder of the site.
 
-- At this stage, each subdirectory of ```stackexchange/``` which corresponds to the a site under StackExchange network, has a new file called ```paras.txt```.
+- At this stage, each subdirectory of ```StackExchange/``` which corresponds to the site under StackExchange network, has a new file called ```paras.txt```.
 
 - For training the Word2Vec model, we required a sequence of sentences to be streamed from the disk. Each sentence is represented as a list i.e. each element of this list is the word of the sentence.
 
@@ -570,65 +570,75 @@ Word2Vec models are shallow, two-layer neural networks that are trained to recon
 -  Running time for the training was around 3hrs.
 
 ---
-## Extracting sections
+# Extracting sections
 
 - We have some collection of words that are usually the heading in the resumes. For example 'education', 'academic', 'school', 'study', etc will mark the start of the education section
 
-- We itterate over all all lines of all resumes, one by one. 
+- We iterate over all lines of all resumes, one by one.
 
-- For each line, first we remove all the blank lines or the lines containing just symbols. Some resumes have a line denoted to just asterics or dashes.
+- For each line, first, we remove all the blank lines or the lines containing just symbols. Some resumes have a line denoted to just asterisks or dashes.
 
-- Next, we categorize each line into one of the four sections. This is done by calculating its similarity to the existing words. If the similarity is higher than the threshold, we update the section and mark that point, on the other hand, if the similarity if below the threshold, we continue with the previous section. 
+- Next, we categorize each line into one of the four sections. This is done by calculating its similarity to the existing words. If the similarity is higher than the threshold, we update the section and mark that point, on the other hand, if the similarity if below the threshold, we continue with the previous section.
 
 - This enables us to separate the sections with good enough accuracy.
 
 - Finally, we write each section of a resume in a .csv file after removing the stop words and doing lemmatization.
 
 ---
-## Assigning scores
+# Assigning scores
 
 - For a given Job Description, we remove all the stop words and do lemmatization, to get a selected few keywords.
 
-- For each keyword found, we find '5' similar words and their corresponding similarity.
+- For each keyword found, we find `5` similar words and their corresponding similarity.
 
-- Now, we find tf-idf for each word, that we got in step 2. 
+- Now, we find `tf-idf` for each word, that we got in step 2.
 
-- Score of the CV is the sum of tf-idf * similarity for all words we got in step 2.
+- The score of the CV is the sum of `tf-idf * similarity` for all words we got in step 2.
 
 ---
-## Suggestions for Subsquent Work
+# Suggestions for Subsequent Work
 
 This section describes our suggestions for the next iteration of the development:
 
-### Identifying Sections in Resumes
-- After the first generation, we have enough resumes to create a training dataset. That is, from the resumes, we can extract senetnces and assign them labels according to the section they are in. For eg. 'MS from Cambridge' will be labelled as 'Education'.
+## Identifying Sections in Resumes
+- After the first iteration, we have enough resumes to create a training dataset. That is, from the resumes, we can extract sentences and assign them labels according to the section they are in. For eg. 'MS from Cambridge' will be labeled as 'Education'.
 - This is possible because most of the resumes have similar structure since they share the source.
 - This training set can be used to train a sentence classification algorithm (SVM is recommended).
-- This algorithm can be used to classify sentences of resumes.
+- This algorithm can be used to classify sentences of resumes into different sections.
 
-### Word Emeddings
-- Word2Vec has two popular implementation:
+## Word Embeddings
+- Word2Vec has two popular implementations:
   - The C Google implementation
   - The Python Gensim implementation
-  The vectors can not be retrained in C implementation. The vectors in Python implementation can be retrained  but the Vocabulary can't be added to the model.
+  The vectors can not be retrained in C implementation. The vectors in Python implementation can be retrained but the Vocabulary can't be added to the model.
 
-- So, the gensim implementation of Doc2Vec should be used instead. It is similar but more flexible. The model can be retrained and Vocabulary can be added to the model as well. Further, vectors for Phrases can be generated more easily since the averaging algorithm is in-built.
+- So, the gensim implementation of Doc2Vec should be used instead. It is similar but more flexible. The model can be retrained and Vocabulary can be added to the model as well. Further, vectors for Phrases can be generated more easily since the averaging algorithm is inbuilt.
 
-- Better Tokenisation while training model. For eg. Identification of common phrases and generating a single token for it instead of individual words. Like 'New York' is better tokenised as 'new_york' than 'new' and 'york'.  This can be achieved  by using gensim implementation of Phrases or spaCy.
+- Better Tokenization while training model. For eg. Identification of common phrases and generating a single token for it instead of individual words. Like 'New York' is better tokenized as 'new_york' than 'new' and 'york'.  This can be achieved by using gensim implementation of Phrases or spaCy.
 
-### Scoring Algorithm
+## Scoring Algorithm
 
 - The division of section can be improved by using the currently sorted sections, that is, we can use them for classifying the lines.
 
 - Instead of considering each word individually, we can take phrases together. Like 'software developer' should be treated as a single entity instead of two.
 
-- We give a higher value to words 'python', 'java', etc. over words like 'knowledge', 'experience', etc. in keywords of job description. This can be done by extracting the tags from the stackoverflow data.
+- We give a higher value to words 'python', 'java', etc. over words like 'knowledge', 'experience' etc in keywords of the job description. This can be done by extracting the tags from the `stackoverflow/` data.
 
+- The Algorithm can use any meta-data (if available) about any preferences for the candidates.
+---
+
+# Conclusion
+
+ However, there is definitely room for improvements, the result is satisfactory enough for the first iteration of the project. Further, most of the pivotal improvements have been mentioned in the previous section. We have learned a lot during the project and hopefully, the project will serve it's purpose in SkyBits as well. The filtering up of CVs has always been subjective process, although, the use of Machine Learning can certainly reduce the unnecessary amount of human effort.
 
 ---
 
-## Conclusion
+# Resources
 
----
-## Resources
+- spaCy Documentation: https://spacy.io/
+- spaCy GitHub Issue Page: https://github.com/explosion/spaCy/issues
+- Gensim Word2Vec Documentation: http://radimrehurek.com/gensim/models/word2vec.html
+- Gensim Word2Vec GitHub repository: [link](https://github.com/RaRe-Technologies/gensim/blob/develop/docs/notebooks/word2vec.ipynb)
+- Google Word2Vec: https://code.google.com/archive/p/word2vec/
+- GitHub Repository for Doc2Vec Illustration: https://github.com/linanqiu/word2vec-sentiments
 ---
